@@ -46,6 +46,7 @@ function App() {
         dispatch({type:ACTIONS.ADD_TODO,payload:{name:name}})
         setName('')
        }}>
+        <h2>What is on your Mind?</h2>
         <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}}></input>
        </form>
        <ul>
